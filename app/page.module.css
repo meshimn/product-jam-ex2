@@ -1,0 +1,11 @@
+@import url("https://fonts.googleapis.com/css2?family=Parkinsans&display=swap");
+
+.wrap {
+  font-family: "Parkinsans", sans-serif;
+  font-size: 1.2rem;
+}
+
+.title {
+  font-family: "Parkinsans", sans-serif;
+  font-size: 2rem;
+}
