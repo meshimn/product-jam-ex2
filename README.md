@@ -8,6 +8,9 @@ Successful Login for the design part is "123" for both phone number and password
 The rest -> incorrect.
 After 3 failed tries -> you'll get to a failed state.
 
+Note: The background video may appear distorted on mobile browsers. For the best experience,
+I recommend viewing it using a desktop browser or the inspect tool on a computer.
+
 Enjoy!
 
 ---
@@ -33,34 +36,4 @@ this, open Chrome (or Chromium), and type the following into the address bar:
 
 ```bash
 http://localhost:3000
-```
-
-## Other commands you can run
-
-The codebase is set up with a number of commands you can run. These are defined
-in the `package.json` file, in the `scripts` section. The following are
-available:
-
-**Lint your code to detect style and some syntax errors**
-
-```bash
-npm run lint
-```
-
-**Compile a production build of your app**
-
-```bash
-npm run build
-```
-
-**Run the compiled production build of the server**
-
-```bash
-npm run start
-```
-
-**Print out some system info related to your server**
-
-```bash
-npm run info
 ```
