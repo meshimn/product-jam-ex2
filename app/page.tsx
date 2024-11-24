@@ -14,7 +14,8 @@ export default function Home() {
             <Link href="/nasa">Nasa Astronomy Picture of the Day</Link>
           </p>
           <p>
-            <Link href="/design"> Login Page</Link>
+            <Link href="/design"> Login Page</Link> - Please make sure to read
+            the README file first.
           </p>
         </div>
         <div className={styles.title}> Enjoy ✨ </div>
