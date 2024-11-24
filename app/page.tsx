@@ -5,7 +5,8 @@ export default function Home() {
   return (
     <main>
       <div className={styles.wrap}>
-        <div className={styles.title}>Welcome to Meshi's ex2 solutions! </div>
+        <div className={styles.title}>Welcome to my ex2 solutions! </div>
+        <p> - Meshi Maman</p>
         <div>
           <p>
             <Link href="/tic-tac-toe"> Tic Tac Toe</Link>
