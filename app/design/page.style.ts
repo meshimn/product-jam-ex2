@@ -64,7 +64,6 @@ export const BottomWrapper = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 10px;
   flex-shrink: 0;
   align-self: stretch;
   z-index: 2;
@@ -168,12 +167,6 @@ export const ForgotPass = styled.div`
   line-height: normal;
   text-decoration-line: underline;
   cursor: pointer;
-`;
-
-export const LoginInfo = styled.div`
-  z-index: 10;
-  font-size: 1.5rem;
-  margin: 2rem;
 `;
 
 export const Info = styled.div`

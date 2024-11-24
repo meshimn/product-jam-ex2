@@ -51,28 +51,21 @@ export default function DesignedLoginPage() {
   };
 
   return (
-    <>
-      <Style.LoginInfo>
-        For successful login
-        <br />
-        enter 123 for both inputs.
-      </Style.LoginInfo>
-      <Style.Wrapper>
-        <Style.StyledVideo autoPlay loop muted>
-          <source src="/background.mp4" type="video/mp4" />
-        </Style.StyledVideo>
-        <Style.BGColor />
-        <Style.Content>
-          <Style.TopWrapper>
-            <div>
-              <img src="/Logo.svg" alt="logo" />
-            </div>
-            <Style.Title>Whatsapp Memories</Style.Title>
-            <Style.SecondTitle>The past is just a text away</Style.SecondTitle>
-          </Style.TopWrapper>
-          <Style.BottomWrapper>{renderBottomComponent()}</Style.BottomWrapper>
-        </Style.Content>
-      </Style.Wrapper>
-    </>
+    <Style.Wrapper>
+      <Style.StyledVideo autoPlay loop muted>
+        <source src="/background.mp4" type="video/mp4" />
+      </Style.StyledVideo>
+      <Style.BGColor />
+      <Style.Content>
+        <Style.TopWrapper>
+          <div>
+            <img src="/Logo.svg" alt="logo" />
+          </div>
+          <Style.Title>Whatsapp Memories</Style.Title>
+          <Style.SecondTitle>The past is just a text away</Style.SecondTitle>
+        </Style.TopWrapper>
+        <Style.BottomWrapper>{renderBottomComponent()}</Style.BottomWrapper>
+      </Style.Content>
+    </Style.Wrapper>
   );
 }
